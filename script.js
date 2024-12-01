@@ -56,7 +56,7 @@ function castRay(rayAngle){
     let diff = Math.abs(angle - rayAngle);
     distance *= Math.cos(diff);
      
-    const wallHeight = 30000/distance;
+    let wallHeight = 30000/distance;
     //  ctx.beginPath();
     //   ctx.moveTo(position[0]/8, position[1]/8);
     //   ctx.lineTo(x/8 ,y/8 )
